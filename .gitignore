@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# Cache or temporary files
+cache/
+temp/
+dist/
+build/
+
+# macOS system files
+.DS_Store
