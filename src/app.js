@@ -1,7 +1,9 @@
 import express from "express";
-import router from "./routes/countryRoutes.js";
+import countryRoutes from "./routes/countryRoutes.js";
+import cors from "cors";
 
 const app = express();
+app.use(cors());
 
 // Middleware
 app.use(express.json()); // Parse JSON request bodies
@@ -14,7 +16,7 @@ app.use((req, res, next) => {
 });
 
 // Routes
-app.use("/", router);
+app.use("/", countryRoutes);
 
 // 404 handler
 app.use((req, res) => {
