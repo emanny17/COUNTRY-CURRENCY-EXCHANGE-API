@@ -85,11 +85,11 @@ Create a `.env` file in the project root:
 
 ```env
 # Database Configuration
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_USER=root
-DB_PASSWORD=your_mysql_password_here
-DB_NAME=countries_db
+DB_HOST=your_database_host
+DB_PORT=your_port_number
+DB_USER=your_db_user
+DB_PASSWORD=your_db_password
+DB_NAME=your_db_name
 
 # Server Configuration
 PORT=8080
