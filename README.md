@@ -4,8 +4,8 @@ A comprehensive RESTful API that fetches country data from external sources, sto
 
 ## 📋 Features
 
-- ✅ Fetch country data from [RestCountries API](https://restcountries.com)
-- ✅ Integrate real-time exchange rates from [Exchange Rate API](https://open.er-api.com)
+- ✅ Fetch country data from [RestCountries API](https://restcountries.com/v2/all?fields=name,capital,region,population,flag,currencies)
+- ✅ Integrate real-time exchange rates from [Exchange Rate API](https://open.er-api.com/v6/latest/USD)
 - ✅ Calculate estimated GDP for each country
 - ✅ Full CRUD operations (Create, Read, Update, Delete)
 - ✅ Advanced filtering and sorting capabilities
